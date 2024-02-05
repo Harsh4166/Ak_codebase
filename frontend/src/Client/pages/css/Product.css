@@ -1,0 +1,112 @@
+.product .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+}
+
+.product h4 {
+    font-size: 36px;
+    color: #f21b3b;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.product h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.product h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.product ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.product ul li {
+    padding-bottom: 16px;
+}
+
+.product ul i {
+    color: #f21b3b;
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+.product ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.product .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.product .btn-buy {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 4px;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 2px solid #c8cedc;
+    color: #6c7c9f;
+}
+
+.product .btn-buy:hover {
+    color: #000;
+}
+
+.product .advanced {
+    width: 200px;
+    position: absolute;
+    top: 18px;
+    right: -68px;
+    transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    padding: 1px 0 3px 0;
+    background: #f21b3b;
+    color: #fff;
+}
+
+.product .product-image {
+    width: 100%;
+    height: auto;
+    /* Allow the height to adjust proportionally based on the width */
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: contain;
+    /* Adjust as needed (e.g., 'cover', 'contain', 'fill', etc.) */
+
+}

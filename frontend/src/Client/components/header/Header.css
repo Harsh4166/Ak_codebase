@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+    background: #fff;
+    transition: all 0.5s;
+    z-index: 997;
+    height: 90px;
+    border-bottom: 1px solid #fff;
+}
+
+@media (max-width: 575px) {
+    .header {
+        height: 70px;
+    }
+}
+
+.header.sticked {
+    border-color: #fff;
+    border-color: #eee;
+}
+
+.header .logo img {
+    max-height: 50px;
+    margin-right: 6px;
+}
+
+.header .logo h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    font-family: var(--font-secondary);
+}
+
+.header .logo h1 span {
+    color: var(--color-primary);
+}
+
+.header .btn-login-signup,
+.header .btn-login-signup:focus {
+    font-size: 14px;
+    color: #fff;
+    background: var(--color-primary);
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.header .btn-login-signup:hover,
+.header .btn-login-signup:focus:hover {
+    color: #fff;
+    background: rgba(206, 18, 18, 0.8);
+}
+
+section {
+    scroll-margin-top: 90px;
+}

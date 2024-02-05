@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "pramukh-electricals",
+  "private_key_id": "269d23bb2a697b6ca09d2c0f99ae420975be40ba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCMnWSQ3/Z8Wiwh\ntIjZ6EZXpOvjBKcaNr01FREtl4Mlpmlcl9FzTwJl+ZjeNqBihgMuLUp+PaAgueWb\nLNVIVIIweoM4FxULXGCpJG0I0nL9oGK4wm5dBpMvsArZWwFSf20v0y4lsS4ULp2+\nshLI8YJO1oG5B31jJrfzwidhyA3hxWITCTDHpWPiZhTc9gyeZ5Z8oGz/JoYYZgle\nD2vvu83Bc7AwhxMxJYimcRdYe+0qvMBIacLAJwv+u8Cm4EwlB53ZVWTxmBr+6lgM\n8fTpF/7vlKAzfixDcvXNXPsbPq53y7El7hxFtsA/2OuPjNPyTLeQNvK28dxt0f8W\nAVgeJ79pAgMBAAECggEAAzf+cNMyRQzFXNd77c0DgIcYaopqjs7joYmZapCWInBU\nPMKG5gZQI5MakjTwPUEcZTFei/7kzEr6Zq/DNBQnJMKb1VawlyF8CZ3OrHiGGah9\ntK/9Wb4dnruqC+lUNutkIvJJE04ieWN1yJiH6zdICH5K2uLr1loGX5s5To4x7yc4\n/0NxiPcU+fO85ZTM8DCTHXpmc0vW5GL41IEWmyUjqYnUrCdZE1X17hsUNMz07IRt\nN1U2mrb9HMqq475djxBO7366wuwI1TI9ZkOEvSTVVxO8Qe3Efov+R3exOaQmVY/a\nME+cNVxtaQSVVM235c9YNfB/IWw0dABhxaK5BdeMgQKBgQC/b8/RutkKsyI/PPDj\nDieov0S9fvxH2mCPRpDw71WHTP92fk0HVVI8RMoVG6/338gr6GU5lD21YUFljkPU\nyOcG7RZH4wab6LKABAhP2f7rO+7f94xFvupE2WsBDStAKB7eIK3MSVu2QMVMrDR7\nc1n8T/V3HLj0551fyR2Zna/6CQKBgQC8CbyTrpSrmgaDLRy1WqK9EVBvXEeP+O6o\nkaKGc7cqqncXJIdeFFxIeUHRezKQgFY1BifBwOZEiRg7HWcWVI5ffvJrpIut6yyQ\nlvZi0eiPER7+8pcvlitu+c8acxedr82hlxNX7QCpyfMNfLEpcv1r/lmz7hEbl+yX\nOFPVKJJyYQKBgDxxPRhm+igarvFweE34JiVtXnLGKTk2hc425YRszIBPm0j6T6/F\nDJXi0jsf5stIaJcUZQFtAJ7H+jHqXRhN5kOVj7dawrdvHQy2OTmdBpOW9LDaI/vR\nb34Vd2d5lPJIuJZBkx4w+zfr819l75waq4qyZDobY3pPtqyLf0EFPI6hAoGAdmrL\nT1XKWqcNIt7uDWeexOJ6fSboCksCQTY12+ZTm5LunKxsc1rvItT6Fio3lbi8kXfm\n4aXRXafYkqHZob5uSsVvdUqSjFxmHEh1sZXvlul5U6UCgP1ZLPI08rs4TB3Cqdiy\nXdTrbgG4Bu5Xw3qfDbuIUj/CllX+sNzQLpT2ZQECgYAKbzVRIBzx1I2dnugk+BAI\nSWg18+1Ne/b1aHdzunoZfDtf/M1qcyXZ2eIR+qAbpxSybfUhFMsRG0H4rgT41xEB\nFXxOL2aozymPBgVN+HtreGYC/MQ9tI5tqhvzGLF0G2/Hr9iIXHSnuaAf6kt/+xeV\n8Hy3IUbKoTAQKWGHScVpNA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-k8nbd@pramukh-electricals.iam.gserviceaccount.com",
+  "client_id": "105659201806262381995",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-k8nbd%40pramukh-electricals.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

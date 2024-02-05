@@ -1,0 +1,222 @@
+/* EventSection.css */
+
+.event .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.event h3 {
+    font-weight: 400;
+    margin: -20px -20px 20px -20px;
+    padding: 20px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777777;
+    background: #f8f8f8;
+}
+
+.event h4 {
+    font-size: 36px;
+    color: #f21b3b;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+}
+
+.event h4 sup {
+    font-size: 20px;
+    top: -15px;
+    left: -3px;
+}
+
+.event h4 span {
+    color: #bababa;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.event ul {
+    padding: 0;
+    list-style: none;
+    color: #444444;
+    text-align: left;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.event ul li {
+    padding-bottom: 16px;
+}
+
+.event ul i {
+    color: #f21b3b;
+    font-size: 18px;
+    padding-right: 4px;
+}
+
+.event ul .na {
+    color: #ccc;
+    text-decoration: line-through;
+}
+
+.event .btn-wrap {
+    margin: 20px -20px -20px -20px;
+    padding: 20px 15px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
+.event .btn-buy {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 4px;
+    transition: none;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    transition: 0.3s;
+    border: 1px solid #c8cedc;
+    color: #6c7c9f;
+}
+
+.event .btn-buy:hover {
+    color: #000;
+}
+
+
+
+.event .event-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+/* event booking  */
+.event .card .box {
+    padding: 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: none !important;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.event .card .event-image {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.btn-buy,
+.btn-back,
+.btn-next,
+.btn-book,
+.btn-pay {
+    background: #f8f8f8;
+    border: 1px solid #c8cedc;
+    color: #6c7c9f;
+    /* White text color */
+}
+
+.btn-buy:hover,
+.btn-back:hover,
+.btn-next:hover,
+.btn-book:hover,
+.btn-pay:hover {
+    background-color: #f21b3b;
+    /* Hover color matching the red shade */
+    border-color: #f21b3b;
+    /* Border color on hover */
+}
+
+/* Add padding and margin to the card */
+.card.event-card {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.booking-form {
+    padding: 10px;
+}
+
+
+
+.form-header {
+    display: flex;
+
+    margin-bottom: 4rem;
+}
+
+.stepIndicator {
+    position: relative;
+    flex: 1;
+    padding-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.stepIndicator.active {
+    font-weight: 600;
+}
+
+.stepIndicator.finish {
+    font-weight: 600;
+    color: #6c7c9f;
+}
+
+.stepIndicator::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    border: 3px solid #c8cedc;
+}
+
+.stepIndicator.active::before {
+    background-color: #6c7c9f;
+    border: 3px solid #c8cedc;
+}
+
+.stepIndicator.finish::before {
+    background-color: #6c7c9f;
+    border: 3px solid #c8cedc;
+}
+
+.stepIndicator::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 8px;
+    width: 100%;
+    height: 3px;
+    background-color: #f3f3f3;
+}
+
+.stepIndicator.active::after {
+    background-color: #6c7c9f;
+}
+
+.stepIndicator.finish::after {
+    width: 60%;
+    background-color: #6c7c9f;
+}
+
+.stepIndicator:last-child:after {
+    display: none;
+}
